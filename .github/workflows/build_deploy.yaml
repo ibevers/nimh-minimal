@@ -1,6 +1,7 @@
 name: Continuous Integration and Deployment of nimh-minimal
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
   pull_request:
